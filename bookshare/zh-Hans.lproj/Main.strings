@@ -1,0 +1,15 @@
+/* Class = "UITabBarItem"; title = "Wall"; ObjectID = "52E-jA-Ne2"; */
+"52E-jA-Ne2.title" = "涂鸦墙";
+
+/* Class = "UITabBarItem"; title = "Library"; ObjectID = "Ngh-GE-BeQ"; */
+"Ngh-GE-BeQ.title" = "书库";
+
+/* Class = "UILabel"; text = "Hello world"; ObjectID = "fJr-y6-3BG"; */
+"fJr-y6-3BG.text" = "你好世界";
+
+/* Class = "UITabBarItem"; title = "My"; ObjectID = "nFw-ag-kY2"; */
+"nFw-ag-kY2.title" = "我的";
+
+/* Class = "UITabBarItem"; title = "Activity"; ObjectID = "xVP-bA-rGW"; */
+"xVP-bA-rGW.title" = "活动";
+
