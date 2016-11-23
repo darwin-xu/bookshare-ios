@@ -38,11 +38,22 @@ class LibraryViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "LibraryIdentifier", for: indexPath)
-
-        // Configure the cell...
-        //        cell.textLabel?.text = "xx"
-
+            
+        if let libraryCell = cell as? LibraryTableViewCell {
+            switch indexPath.row {
+            case 0:
+                libraryCell.category?.text = "Trending"
+            case 1:
+                libraryCell.category?.text = "Popular Fiction"
+            case 2:
+                libraryCell.category?.text = "儿童诗歌"
+            default:
+                libraryCell.category?.text = "Unknown"
+            }
+        }
+  
         return cell
     }
 
