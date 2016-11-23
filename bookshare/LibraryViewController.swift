@@ -45,12 +45,16 @@ class LibraryViewController: UITableViewController {
             switch indexPath.row {
             case 0:
                 libraryCell.category?.text = "Trending"
+                libraryCell.bookNumber = 4
             case 1:
                 libraryCell.category?.text = "Popular Fiction"
+                libraryCell.bookNumber = 6
             case 2:
                 libraryCell.category?.text = "儿童诗歌"
+                libraryCell.bookNumber = 2
             default:
                 libraryCell.category?.text = "Unknown"
+                libraryCell.bookNumber = 0
             }
         }
   
