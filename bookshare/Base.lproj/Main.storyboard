@@ -87,11 +87,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Book" id="LbM-WJ-QsP">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="KnF-Wd-IZJ">
-                            <connections>
-                                <action selector="goBack" destination="PmI-dm-2AL" id="8Dt-8k-O6D"/>
-                            </connections>
-                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="2IV-Rf-gr9"/>
                     </navigationItem>
                     <connections>
@@ -168,8 +163,8 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See All &gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcA-ku-Pa3">
-                                            <rect key="frame" x="260" y="10" width="60" height="20"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See All &gt;" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcA-ku-Pa3">
+                                            <rect key="frame" x="255" y="10" width="60" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="60" id="5Pt-WE-cFI"/>
                                                 <constraint firstAttribute="height" constant="20" id="Tj8-SU-YOD"/>
@@ -240,7 +235,7 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="nEz-ps-1yG" firstAttribute="top" secondItem="YcA-ku-Pa3" secondAttribute="bottom" id="27j-yv-bt4"/>
-                                        <constraint firstAttribute="trailing" secondItem="YcA-ku-Pa3" secondAttribute="trailing" id="5fF-mu-dkk"/>
+                                        <constraint firstAttribute="trailing" secondItem="YcA-ku-Pa3" secondAttribute="trailing" constant="5" id="5fF-mu-dkk"/>
                                         <constraint firstItem="nEz-ps-1yG" firstAttribute="leading" secondItem="GFl-PU-dcA" secondAttribute="leading" id="6Rv-kt-s8t"/>
                                         <constraint firstItem="nEz-ps-1yG" firstAttribute="top" secondItem="2Ci-W6-t4j" secondAttribute="bottom" id="DsV-NH-WFy"/>
                                         <constraint firstAttribute="trailing" secondItem="nEz-ps-1yG" secondAttribute="trailing" id="Mrs-8e-f75"/>
